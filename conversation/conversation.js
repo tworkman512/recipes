@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-var tjbot = require('../lib/tjbot');
+var tjbot = require('tjbot');
 var config = require('./config');
 
 // obtain our credentials from config.js
