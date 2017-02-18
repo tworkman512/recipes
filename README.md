@@ -15,7 +15,7 @@ This module provides a Node.js code to control a [NeoPixel RGB led](https://www.
 
 This module provides Node.js code to control the color of a [NeoPixel RGB led](https://www.adafruit.com/product/1938) based on public perception of a given keyword (e.g. "heart" or "iPhone"). The module connects to Twitter to analyze the public sentiment about the given keyword in real time, and updates the color of the LED to reflect the sentiment. It uses [Watson Tone Analyzer](http://www.ibm.com/watson/developercloud/tone-analyzer.html) and Twitter API.
 
- 
+
 
 ###[Conversation](conversation)
 > Build a talking robot with Watson [[instructables](http://www.instructables.com/id/Build-a-Talking-Robot-With-Watson-and-Raspberry-Pi/)] [[github](https://github.com/ibmtjbot/tjbot/tree/master/recipes/conversation)]
@@ -25,9 +25,13 @@ This module provides Node.js code to get your Raspberry Pi to talk. It uses [Wat
 
 
 ## Featured Recipes
-Check out some [featured TJ Bot recipes](../featured/README.md) created by the community.
+Here are some of the featured recipes created by TJBot enthusiasts:
+- Fun controller recipe for TJBot's servo arm [[instructions](http://www.instructables.com/id/Build-a-Waving-Robot-Using-Watson-Services/)] [[github](https://github.com/victordibia/tjwave)]
+- SwiftyTJ that enables TJBot’s LED to be controlled from a Swift program [[github](https://github.com/jweisz/swifty-tj)]
+- Build a TJBot that cares [[instructions](https://medium.com/ibm-watson-developer-cloud/build-a-chatbot-that-cares-part-1-d1c273e17a63#.6sg1yfh4w)] [[github](https://github.com/boxcarton/tjbot-raspberrypi-nodejs)]
+- Project Intu, not a recipe but a middleware that can be installed on TJBot and be used to architect more complex interactions for your robot [[developercloud](http://www.ibm.com/watson/developercloud/project-intu.html)] [[github](https://github.com/watson-intu/self-sdk#raspberry-pi)]
 
 ## Contributing Your Own Recipes
-TJ Bot is open source and we'd love to see what you can make with him. If you have created your own recipe, we would love to include it as a [featured recipe](../featured/README.md)! Just submit a pull request for your recipe instructions and code and send a link to a demo video to tjbot@us.ibm.com (Vimeo & YouTube preferred). We will review it and if we decide to include it in our repository, you'll be listed as the developer. See [CONTRIBUTING.md](../CONTRIBUTING.md).
+TJ Bot is open source and we'd love to see what you can make with him. If you have created your own recipe, we would love to include it on the list above! Send us a link to a your github repo (and a short demo video) to tjbot@us.ibm.com (Vimeo & YouTube preferred). We will review it include it on our list where appropriate. See [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 We cannot wait to see what you build with TJBot!
