@@ -47,7 +47,7 @@ tj.listen(function(msg) {
         // send to the conversation service
         tj.converse(WORKSPACEID, turn, function(response) {
             // speak the result
-            tj.speak(response);
+            tj.speak(response.description);
         });
     }
 
