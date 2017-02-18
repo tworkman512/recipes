@@ -1,0 +1,26 @@
+{
+  "name": "sttkit",
+  "version": "0.0.1",
+  "description": "TJ Bot Speech to Text recipe",
+  "main": "stt.js",
+  "scripts": {
+    "test": "node stt.js",
+    "start": "node stt.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ibmtjbot/recipes.git"
+  },
+  "keywords": [
+    "Watson",
+    "IBM",
+    "Speech",
+    "To",
+    "Text",
+    "STT",
+    "Raspberry Pi"
+  ],
+  "dependencies": {
+    "tjbot": "latest"
+  }
+}
