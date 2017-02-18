@@ -29,7 +29,7 @@ var hardware = ['microphone', 'speaker'];
 
 // turn on debug logging to the console
 var tjConfig = {
-    verboseLogging: true
+    verboseLogging: false
 };
 
 // instantiate our TJBot!
